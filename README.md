@@ -22,3 +22,11 @@ This will download and install all of the required dependencies for our tutorial
 ### Instructor
 
 [Brett Morris](http://brettmorr.is) is a fourth-year graduate student of Astronomy and Astrobiology. He maintains the astropy-affiliated package [astroplan](http://github.com/astropy/astroplan/), among others.
+
+### Resources
+
+In addition to the notebooks in this repository, we will use Jake Vanderplas' 2014 Python Bootcamp notebooks, which I've forked [here](https://github.com/bmorris3/2014_fall_ASTR599).
+
+#### Further reading
+
+For additional resources on Python, I recommend Jake's book _A Whirlwind Tour of Python_, which is [currently available for free](](http://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf)).

@@ -2,7 +2,9 @@
 
 Sept 26-27, 2016 in PAA 216
 
-Welcome to Python Bootcamp - a highly-condensed, fast-paced, incomplete tour of the Python language and some of its essential packages used in physics and astronomy with Python. In this two-day course, we'll introduce you to:
+Welcome to Python Bootcamp - a highly-condensed, fast-paced, incomplete tour of the Python language and some of its essential packages used in physics and astronomy with Python. This course is meant for students who are experienced programmers in a language other than Python. We will give you broad and shallow exposure to the plethora of tools that may be useful to you in Python, starting at the basics of the language and moving up to scientific computation in Python.
+
+In this two-day course, we'll introduce you to:
 * efficient calculations with numpy
 * visualization with matplotlib
 * writing functions and modules
@@ -29,4 +31,4 @@ In addition to the notebooks in this repository, we will use Jake Vanderplas' 20
 
 #### Further reading
 
-For additional resources on Python, I recommend Jake's book _A Whirlwind Tour of Python_, which is [currently available for free](](http://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf)).
+For additional resources on getting up to speed in Python, I recommend Jake's book _A Whirlwind Tour of Python_, which is [currently available for free](http://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf). If you're ready to go deeper, there are [many freely available books on Python to try](http://pythonbooks.revolunet.com).

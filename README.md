@@ -13,7 +13,7 @@ Welcome to Python Bootcamp - a highly-condensed, fast-paced, incomplete tour of 
 
 ### Getting set up for Bootcamp
 
-Before arriving at Bootcamp, we will assume that you have Python and the required packages installed. The easiest way to do that (and I _very strongly_ encourage that you do it this way) is to use the **Anaconda** package manager. [Download Anaconda](https://www.continuum.io/downloads) (or [miniconda](http://conda.pydata.org/miniconda.html) if disk space is a concern), and then install the dependencies for this course with the following command in your terminal: 
+Before arriving at Bootcamp, we will assume that you have Python and the required packages installed. The easiest way to do that (and I _very strongly_ encourage that you do it this way) is to use the **Anaconda** package manager. [Download and install Anaconda](https://www.continuum.io/downloads) (or [miniconda](http://conda.pydata.org/miniconda.html) if disk space is a concern), and then install the dependencies for this course with the following command in your terminal: 
 ```bash 
 conda install numpy scipy astropy matplotlib h5py jupyter
 ```

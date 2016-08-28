@@ -3,7 +3,10 @@ import numpy as np
 from astropy.io import ascii
 from astropy.table import Table
 
-os.mkdir('sample_lcs')
+directory_name = 'sample_lcs'
+
+if not os.path.exists(directory_name):
+    os.makedirs(directory_name)
 
 n_lightcurves = 10
 
@@ -16,4 +19,4 @@ for i in range(n_lightcurves):
     flags = np.random.randint(0, 5, len(fluxes))
 
     data = [times, fluxes, uncertainties, flags] 
-    np.savetxt('sample_lcs/lc_{0}.txt'.format(i), data)
+    np.savetxt('{0}/lc_{1}.txt'.format(directory_name, i), data)

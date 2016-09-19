@@ -14,6 +14,7 @@ In this two-day "course", we'll introduce you to:
 * object-oriented programming
 * handling "big data" with HDF5
 * astronomical calculations with astropy
+* version control and collaboration with git and GitHub
 
 ### Getting set up for Bootcamp
 

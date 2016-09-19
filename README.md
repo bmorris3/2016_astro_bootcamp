@@ -23,7 +23,7 @@ Before arriving at Bootcamp, we will assume that you have Python and the require
 conda install numpy scipy astropy matplotlib h5py jupyter
 conda install -c astropy astroquery
 ```
-This will download and install all of the required dependencies for our tutorials. Contact me if you have trouble getting set up _before_ bootcamp begins! You may also want to install `git` if you don't already have it installed, as all of our lessons are accessible via GitHub.
+This will download and install all of the required dependencies for our tutorials. Contact me if you have trouble getting set up _before_ bootcamp begins (but be warned: I will only provide installation support if you're using anaconda)! If you plan to stick around for the git tutorial, you should also install [git](https://git-scm.com/downloads).
 
 ### Instructor
 

@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>2016 Python Bootcamp for Astronomy and Physics</title>
+    <title>2016 Python Bootcamp for UW Astronomy and Physics by bmorris3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -11,20 +11,15 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">2016 Python Bootcamp for Astronomy and Physics</h1>
-      <h2 class="project-tagline">Sept 26-27, 2016 in PAA 216</h2>
-      <!--<a href="https://github.com/bmorris3/2016_astro_bootcamp" class="btn">View on GitHub</a>
+      <h1 class="project-name">2016 Python Bootcamp for UW Astronomy and Physics</h1>
+      <h2 class="project-tagline">Sept 26-27, 2016 in PAA216</h2>
+      <a href="https://github.com/bmorris3/2016_astro_bootcamp" class="btn">View on GitHub</a>
       <a href="https://github.com/bmorris3/2016_astro_bootcamp/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/bmorris3/2016_astro_bootcamp/tarball/master" class="btn">Download .tar.gz</a> -->
+      <a href="https://github.com/bmorris3/2016_astro_bootcamp/tarball/master" class="btn">Download .tar.gz</a>
     </section>
 
     <section class="main-content">
-      <h1>
-<a id="2016-python-bootcamp-for-astronomy-and-physics" class="anchor" href="#2016-python-bootcamp-for-astronomy-and-physics" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2016 Python Bootcamp for Astronomy and Physics</h1>
-
-<p>Sept 26-27, 2016 in PAA 216</p>
-
-<p>Welcome to Python Bootcamp - a highly-condensed, fast-paced, incomplete tour of the Python language and some of its essential packages used in physics and astronomy with Python. This course is meant for students who are experienced programmers in a language other than Python. We will give you broad and shallow exposure to the plethora of tools that may be useful to you in Python, starting at the basics of the language and moving up to scientific computation in Python.</p>
+      <p>Welcome to Python Bootcamp - a highly-condensed, fast-paced, incomplete tour of the Python language and some of its essential packages used in physics and astronomy with Python. This course is meant for students who are experienced programmers in a language other than Python. We will give you broad and shallow exposure to the plethora of tools that may be useful to you in Python, starting at the basics of the language and moving up to scientific computation in Python.</p>
 
 <h3>
 <a id="topics" class="anchor" href="#topics" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Topics</h3>
@@ -47,10 +42,32 @@
 
 <p>Before arriving at Bootcamp, we will assume that you have Python and the required packages installed. The easiest way to do that (and I <em>very strongly</em> encourage that you do it this way) is to use the <strong>Anaconda</strong> package manager. <a href="https://www.continuum.io/downloads">Download and install Anaconda</a> (or <a href="http://conda.pydata.org/miniconda.html">miniconda</a> if disk space is a concern) <strong>for Python 3</strong>, and then install the dependencies for this course with the following command in your terminal: </p>
 
-<div class="highlight highlight-source-shell"><pre>conda install numpy scipy astropy matplotlib h5py jupyter
+<div class="highlight highlight-source-shell"><pre>conda install numpy scipy astropy matplotlib h5py jupyter ipython
 conda install -c astropy astroquery</pre></div>
 
 <p>This will download and install all of the required dependencies for our tutorials. Contact me if you have trouble getting set up <em>before</em> bootcamp begins (but be warned: I will only provide installation support if you're using anaconda)! If you plan to stick around for the git tutorial, you should also install <a href="https://git-scm.com/downloads">git</a>.</p>
+
+<h4>
+<a id="testing-your-setup" class="anchor" href="#testing-your-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Testing your setup</h4>
+
+<p>You can test if you've successfully installed Python and the required depedencies by doing the following. </p>
+
+<ul>
+<li>Open a new terminal window, and type <code>ipython</code>. This will open an interactive iPython shell, giving you a prompt that says <code>In [1]:</code>.</li>
+<li>Copy this code to your clipboard: </li>
+</ul>
+
+<div class="highlight highlight-source-python"><pre><span class="pl-k">import</span> numpy
+<span class="pl-k">import</span> scipy
+<span class="pl-k">import</span> astropy
+<span class="pl-k">import</span> matplotlib
+<span class="pl-k">import</span> h5py
+<span class="pl-k">import</span> astroquery</pre></div>
+
+<ul>
+<li>Type into the iPython shell the word <code>paste</code>, and press enter.</li>
+<li>If no errors are raised, you're ready for bootcamp. You may close the terminal window.</li>
+</ul>
 
 <h3>
 <a id="instructor" class="anchor" href="#instructor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Instructor</h3>
@@ -68,7 +85,7 @@ conda install -c astropy astroquery</pre></div>
 <p>For additional resources on getting up to speed in Python, I recommend Jake's book <em>A Whirlwind Tour of Python</em>, which is <a href="http://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf">currently available for free</a>. If you're ready to go deeper, there are <a href="http://pythonbooks.revolunet.com">many freely available books on Python to try</a>.</p>
 
       <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/bmorris3/2016_astro_bootcamp">2016 astro bootcamp</a> is maintained by <a href="https://github.com/bmorris3">bmorris3</a>.</span>
+        <span class="site-footer-owner"><a href="https://github.com/bmorris3/2016_astro_bootcamp">2016 Python Bootcamp for UW Astronomy and Physics</a> is maintained by <a href="https://github.com/bmorris3">bmorris3</a>.</span>
 
         <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>

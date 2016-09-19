@@ -4,7 +4,9 @@ Sept 26-27, 2016 in PAA 216
 
 Welcome to Python Bootcamp - a highly-condensed, fast-paced, incomplete tour of the Python language and some of its essential packages used in physics and astronomy with Python. This course is meant for students who are experienced programmers in a language other than Python. We will give you broad and shallow exposure to the plethora of tools that may be useful to you in Python, starting at the basics of the language and moving up to scientific computation in Python.
 
-In this two-day course, we'll introduce you to:
+### Topics
+
+In this two-day "course", we'll introduce you to:
 * efficient calculations with numpy
 * visualization with matplotlib
 * writing functions and modules
@@ -12,6 +14,7 @@ In this two-day course, we'll introduce you to:
 * object-oriented programming
 * handling "big data" with HDF5
 * astronomical calculations with astropy
+* version control and collaboration with git and GitHub
 
 ### Getting set up for Bootcamp
 
@@ -20,7 +23,7 @@ Before arriving at Bootcamp, we will assume that you have Python and the require
 conda install numpy scipy astropy matplotlib h5py jupyter
 conda install -c astropy astroquery
 ```
-This will download and install all of the required dependencies for our tutorials. Contact me if you have trouble getting set up _before_ bootcamp begins! You may also want to install `git` if you don't already have it installed, as all of our lessons are accessible via GitHub.
+This will download and install all of the required dependencies for our tutorials. Contact me if you have trouble getting set up _before_ bootcamp begins (but be warned: I will only provide installation support if you're using anaconda)! If you plan to stick around for the git tutorial, you should also install [git](https://git-scm.com/downloads).
 
 ### Instructor
 
@@ -29,6 +32,7 @@ This will download and install all of the required dependencies for our tutorial
 ### Resources
 
 In addition to the notebooks in this repository, we will use Jake Vanderplas' 2014 Python Bootcamp notebooks, which I've forked [here](https://github.com/bmorris3/2014_fall_ASTR599).
+
 
 #### Further reading
 

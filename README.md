@@ -20,10 +20,27 @@ In this two-day "course", we'll introduce you to:
 
 Before arriving at Bootcamp, we will assume that you have Python and the required packages installed. The easiest way to do that (and I _very strongly_ encourage that you do it this way) is to use the **Anaconda** package manager. [Download and install Anaconda](https://www.continuum.io/downloads) (or [miniconda](http://conda.pydata.org/miniconda.html) if disk space is a concern) **for Python 3**, and then install the dependencies for this course with the following command in your terminal: 
 ```bash 
-conda install numpy scipy astropy matplotlib h5py jupyter
+conda install numpy scipy astropy matplotlib h5py jupyter ipython
 conda install -c astropy astroquery
 ```
 This will download and install all of the required dependencies for our tutorials. Contact me if you have trouble getting set up _before_ bootcamp begins (but be warned: I will only provide installation support if you're using anaconda)! If you plan to stick around for the git tutorial, you should also install [git](https://git-scm.com/downloads).
+
+#### Testing your setup
+
+You can test if you've successfully installed Python and the required depedencies by doing the following. 
+
+* Open a new terminal window, and type `ipython`. This will open an interactive iPython shell, giving you a prompt that says `In [1]:`.
+* Copy this code to your clipboard: 
+```python
+import numpy
+import scipy
+import astropy
+import matplotlib
+import h5py
+import astroquery
+```
+* Type into the iPython shell the word `paste`, and press enter.
+* If no errors are raised, you're ready for bootcamp. You may close the terminal window.
 
 ### Instructor
 

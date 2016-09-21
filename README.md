@@ -2,6 +2,8 @@
 
 Sept 26-27, 2016 in PAA 216
 
+Visit the bootcamp website [here](https://bmorris3.github.io/2016_astro_bootcamp/).
+
 Welcome to Python Bootcamp - a highly-condensed, fast-paced, incomplete tour of the Python language and some of its essential packages used in physics and astronomy with Python. This course is meant for students who are experienced programmers in a language other than Python. We will give you broad and shallow exposure to the plethora of tools that may be useful to you in Python, starting at the basics of the language and moving up to scientific computation in Python.
 
 ### Topics
@@ -50,7 +52,23 @@ import astroquery
 
 In addition to the notebooks in this repository, we will use Jake Vanderplas' 2014 Python Bootcamp notebooks, which I've forked [here](https://github.com/bmorris3/2014_fall_ASTR599).
 
-
 #### Further reading
 
 For additional resources on getting up to speed in Python, I recommend Jake's book _A Whirlwind Tour of Python_, which is [currently available for free](http://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf). If you're ready to go deeper, there are [many freely available books on Python to try](http://pythonbooks.revolunet.com).
+
+### Preliminary schedule
+
+|Time | Lesson | 
+|-----|-----|
+| Mon 9-10:30 | Basic training | 
+| Mon 10:30-11:30 | Data structures |
+| Mon 11:30-12  | iPython | 
+| Mon 1-2 | Functions, modules | 
+| Mon 2-3:30 | Git intro |
+| Tues 9-10:30 | Numpy intro | 
+| Tues 10:00-10:30 | Matplotlib intro | 
+| Tues 10:30-11:30 | Optimization intro | 
+| Tues 1-2 | Intro to astropy |
+| Tues 2-3 | Intro to OO | 
+| Tues 3-4 | Intro to HDF5 | 
+| Tues 3-4 | GitHub intro |

@@ -67,8 +67,8 @@ For additional resources on getting up to speed in Python, I recommend Jake's bo
 | Mon 2-3:30 | Git intro |
 | Tues 9-10:30 | Numpy intro | 
 | Tues 10:00-10:30 | Matplotlib intro | 
-| Tues 10:30-11:30 | Optimization intro | 
-| Tues 1-2 | Intro to astropy |
-| Tues 2-3 | Intro to OO | 
-| Tues 3-4 | Intro to HDF5 | 
+| Tues 10:30-12:00 | Optimization intro | 
+| Tues 1-1:45 | Intro to astropy |
+| Tues 1:45-2:30 | Intro to OO | 
+| Tues 2:30-3:00 | Intro to HDF5 |
 | Tues 3-4 | GitHub intro |
